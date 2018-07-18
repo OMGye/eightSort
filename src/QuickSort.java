@@ -45,10 +45,5 @@ public class QuickSort {
         nums[m] = temp;
     }
 
-    public static void main(String[] args) {
-        Integer[] nums = new Integer[]{100,34,2,34,52,5,356,245,76,46,35,754,335,434,93};
-        quickSort(nums);
-        for (int i = 0; i < nums.length; i++)
-            System.out.println(nums[i]);
-    }
+
 }
